@@ -13,7 +13,7 @@
     align-items: center;
     justify-content: flex-start;
     padding: 1rem;
-    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0,1);
     box-shadow: 0px 7px 21px -7px rgba(0,0,0,1);
   }
   
