@@ -1,0 +1,149 @@
+*{
+    padding: 0;
+    margin: 0;
+  }
+  
+  .App{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  header{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 1rem;
+    background-color: rgba(0, 0, 0,1);
+    box-shadow: 0px 7px 21px -7px rgba(0,0,0,1);
+  }
+  
+  header h1{
+    padding: 0.2rem;
+    margin: 0.2rem;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    
+    color: rgb(255, 255, 255);
+  }
+  
+  .toDoIcon{
+    color: rgb(220, 0, 0);
+    margin: 0 0.3rem ;
+    font-size: 24px;
+  }
+
+  .createNote label{
+    color: dimgrey;
+    font-family:Courier, monospace;
+	font-weight:normal;
+	font-size:15px;
+    margin-top: 0.5rem;
+    
+  }
+
+  .createNote button{
+    display: inline-flex;
+  height: 40px;
+  width: 150px;
+  border: 2px solid #BFC0C0;
+  margin: 20px 20px 20px 20px;
+  color: #BFC0C0;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: .8em;
+  letter-spacing: 1.5px;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  margin-top: 1.75rem;
+  }
+
+  .createNote button:hover{
+    background: #002424;
+    color:rgb(255, 255, 255);
+    transition: all .5s ease-Out;
+  }
+
+  .createNote input{
+    width:500px;
+	min-height: 1rem;
+	background-color:#FFF;
+	color:#222;
+	font-family:Courier, monospace;
+	font-weight:normal;
+	font-size:15px;
+	resize:none;
+	line-height:20px;
+	padding-left:4px;
+	padding-right:4px;
+	padding-top:8px;
+    
+	padding-bottom:8px;
+	background-color: bisque;
+	-webkit-border-radius:8px;
+	border-radius:8px;
+	-webkit-box-shadow: 0px 2px 14px #000;
+	box-shadow: 0px 2px 14px #000;
+	border-top:1px solid #FFF;
+	border-bottom:1px solid #FFF;
+  }
+  .noteTextArea{
+    width:500px;
+	min-height: 100px;
+	background-color:#FFF;
+	color:#222;
+	font-family:Courier, monospace;
+	font-weight:normal;
+	font-size:15px;
+	resize:none;
+	line-height:20px;
+	padding-left:10px;
+	padding-right:10px;
+	padding-top:13px;
+    
+	padding-bottom:14px;
+	background-color: bisque;
+	-webkit-border-radius:12px;
+	border-radius:12px;
+	-webkit-box-shadow: 0px 2px 14px #000;
+	box-shadow: 0px 2px 14px #000;
+	border-top:1px solid #FFF;
+	border-bottom:1px solid #FFF;
+  }
+  .createNote{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+  }
+
+  .createNote Button{
+    margin: 0.5rem;
+  }
+
+  .displayNotes{
+    display: flex;
+    flex-wrap: wrap;
+    padding:2 rem;
+
+  }
+
+  .notes{
+    margin:0.75rem;
+    padding:1rem;
+    background-color: chartreuse;
+    height: fit-content;
+    max-width: 10rem;
+    min-width: 4rem;
+    min-height: 4rem;
+    border-radius: 0.2rem;
+    overflow: hidden;
+  }
+
+  .notes h6{
+    width: 80%;
+    height: fit-content;
+    word-wrap: break-word;
+  }
